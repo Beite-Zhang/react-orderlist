@@ -1,0 +1,13 @@
+.header{
+    background-color: #e9203d;
+    color           : white;
+    padding         : 15px 10px;
+    padding-left    : 0px;
+    text-align      : center;
+    font-size       : 16px;
+    line-height     : 1;
+    /* 设置了固定后，下面的子组件就要距离上面一定的距离了 */
+    position: fixed;
+    width   : 100%;
+    z-index : 100;
+}

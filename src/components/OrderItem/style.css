@@ -1,0 +1,86 @@
+.orderItem{
+    background-color: white;
+    display         : flex;
+    flex-direction  : column;
+    border-bottom   : 1px solid white;
+    margin          : auto 8px;
+}
+.orderItem__containner{
+    display: flex;
+}
+
+.orderItem__picContainner{
+    height: 100px;
+    width : 100px;
+   
+}
+.orderItem__pic{
+    height: 100%;
+    width : 100%;
+}
+ .orderItem__content{
+    text-align : left;
+    text-indent: 0.5em;
+ }
+ .orderItem__product{
+    background-color: white;
+    font-size       : 20px;
+    margin          : 12px 0px;
+ }
+ .orderItem__shop{
+    font-size: 13px;
+    color    : gray;
+    margin   : 12px 0px;
+ }
+ .orderItem__price{
+    font-size: 13px;
+    color    : red;
+    font-size: 16px;
+ }
+ .orderItem__btn{
+    position  : absolute;
+    right     : 10px;
+    margin-top: -25px;
+   
+ }
+ .orderItem button{
+     color  : white;
+     border : 0;
+     padding: 1px 25px;
+     cursor : pointer;
+     z-index: 1;
+ }
+ .orderItem__btn--red{
+    background-color: red;
+ }
+ .orderItem__btn--gray{
+    background-color: #ccc;
+ }
+
+ .orderItem__commentContainer{
+    display       : flex;
+    flex-direction: column;
+    text-align    : left;
+    padding-bottom: 20px;
+
+ }
+ .orderItem__comment{
+    min-height : 80px;
+    resize     : vertical;
+    margin-top : 3px;
+    font-size  : 16px;
+    text-indent: 0em ;
+    border     : #ccc 1px solid;
+
+ }
+ .orderItem__StarContainer{
+    margin: 3px 0;
+ }
+ .orderItem__star{
+     font-size: 22px;
+     cursor   : pointer;
+     color    : #ccc;
+ }
+ .orderItem__star--light{
+    color: red;
+ }
